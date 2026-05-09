@@ -1,0 +1,19 @@
+"""
+Take three numbers as input from User and print which one is greater
+or are they equal.
+"""
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a == b == c:
+    print("All numbers are equal")
+elif a > b and a > c:
+    print(f"{a} is the greatest number")
+elif b > a and b > c:
+    print(f"{b} is the greatest number")
+else:
+    print(f"{c} is the greatest number")
+    
+    
